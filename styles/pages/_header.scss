@@ -45,7 +45,7 @@ h3 {
 
 .subtitle-img {
     position: absolute;
-    top: 70%;
+    top: 80px;
     color: #FFFFFF;
     padding-right: 10px;
     padding-left: 10px;
@@ -55,7 +55,12 @@ h3 {
 header {
     button {
         position: absolute;
-        top: 300px;
+        top: 330px;
+        left: 690px;
+    }
+
+    h1 {
+        transform: translateY(-50px);
     }
 }
 
