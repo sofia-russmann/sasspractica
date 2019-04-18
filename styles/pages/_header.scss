@@ -1,0 +1,61 @@
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8) ),url(https://technext.github.io/clickaholic/images/banner-image-4.jpg);
+    height: 630px;
+    transform: translateY(-40px);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: center;
+    transform: translateY(250px);
+}
+
+h1 {
+    font-family: $secondary-font;
+    color: $secondary-color;
+    font-size: 50px;
+}
+
+h3 {
+    font-family:  $main-font;
+    color: $secondary-color;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: relative;
+    width: 220px;
+    height: 150px;
+    overflow: hidden;
+    align-items: center;
+}
+.img {
+    position: absolute;
+    height: 150px;
+}
+
+.subtitle-img {
+    position: absolute;
+    top: 70%;
+    color: #FFFFFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: $secondary-font;
+}
+
+header {
+    button {
+        position: absolute;
+        top: 300px;
+    }
+}
+

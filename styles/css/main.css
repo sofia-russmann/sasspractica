@@ -1,0 +1,122 @@
+/*colores*/
+/*tipografias*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-img {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  background-color: #000000;
+  height: 70px;
+  position: relative;
+  transform: translateY(-20px);
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 10px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*
+--------------------------------------
+                HOVER
+--------------------------------------
+*/
+.nav-items:hover {
+  color: #fce000;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(https://technext.github.io/clickaholic/images/banner-image-4.jpg);
+  height: 630px;
+  transform: translateY(-40px);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: center;
+  transform: translateY(250px);
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: relative;
+  width: 220px;
+  height: 150px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.img {
+  position: absolute;
+  height: 150px;
+}
+
+.subtitle-img {
+  position: absolute;
+  top: 70%;
+  color: #FFFFFF;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+header button {
+  position: absolute;
+  top: 300px;
+}
+
+header button {
+  background-color: #fce000;
+  border: 0;
+  box-shadow: none;
+  width: 200px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */
