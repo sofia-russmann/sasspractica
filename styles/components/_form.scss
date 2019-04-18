@@ -1,0 +1,29 @@
+
+#contact-form{
+    padding: 10px;
+    width: 100%;
+    
+    input {
+        color:$main-color;
+        border: 1px solid $main-color;
+        font-family: $secondary-font;
+        text-align: left;
+        font-size: 16px;
+        padding: 10px;
+        margin: 8px;
+
+    }
+    #textarea-message{
+        color: $main-color;
+        border: 1px solid $main-color;
+        font-family: $secondary-font;
+        text-align: left;
+        font-size: 16px;
+        margin: 9px;
+        width: 90%;
+        height: 130px;
+
+    }
+    
+
+}
